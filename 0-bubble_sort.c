@@ -2,7 +2,7 @@
 
 /**
  * bubble_sort - this sorts an array using bubble sort algorithm
- * 
+ *
  * @array: this is the array to be sorted
  * @size: this is the size of the array
  */
@@ -13,7 +13,7 @@ unsigned int i, j, swap, temp;
 for (i = 0; i < size; i++)
 {
 swap = 0;
-for ( j = i+1; j < size; j++)
+for (j = i + 1; j < size; j++)
 {
 if (array[j] < array[i])
 {
