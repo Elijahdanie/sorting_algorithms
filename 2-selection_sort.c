@@ -13,12 +13,12 @@ void selection_sort(int *array, size_t size)
 	for (; i < arrSize - 1; i++)
 	{
 		minIndex = i; /*cache */
-        j = i + 1; /*move to next value*/
+		j = i + 1; /*move to next value*/
 		while (j < arrSize)
 		{
 			if (array[j] < array[minIndex])
 				minIndex = j;
-            j++;
+			j++;
 		}
 		if (minIndex != i)
 		{
